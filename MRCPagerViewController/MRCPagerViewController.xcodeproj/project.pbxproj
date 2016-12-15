@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A598EDF1E02AC8900F74CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A598EDE1E02AC8900F74CB3 /* AppDelegate.swift */; };
+		7A598EE11E02AC8900F74CB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A598EE01E02AC8900F74CB3 /* ViewController.swift */; };
+		7A598EE41E02AC8900F74CB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A598EE21E02AC8900F74CB3 /* Main.storyboard */; };
+		7A598EE61E02AC8900F74CB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A598EE51E02AC8900F74CB3 /* Assets.xcassets */; };
+		7A598EE91E02AC8900F74CB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A598EE71E02AC8900F74CB3 /* LaunchScreen.storyboard */; };
+		7A598EF41E02AC8900F74CB3 /* MRCPagerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A598EF31E02AC8900F74CB3 /* MRCPagerViewControllerTests.swift */; };
+		7A598EFF1E02AC8900F74CB3 /* MRCPagerViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A598EFE1E02AC8900F74CB3 /* MRCPagerViewControllerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A598EF01E02AC8900F74CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A598ED31E02AC8900F74CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A598EDA1E02AC8900F74CB3;
+			remoteInfo = MRCPagerViewController;
+		};
+		7A598EFB1E02AC8900F74CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A598ED31E02AC8900F74CB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A598EDA1E02AC8900F74CB3;
+			remoteInfo = MRCPagerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A598EDB1E02AC8900F74CB3 /* MRCPagerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MRCPagerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A598EDE1E02AC8900F74CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A598EE01E02AC8900F74CB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A598EE31E02AC8900F74CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A598EE51E02AC8900F74CB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A598EE81E02AC8900F74CB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A598EEA1E02AC8900F74CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A598EEF1E02AC8900F74CB3 /* MRCPagerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRCPagerViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A598EF31E02AC8900F74CB3 /* MRCPagerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRCPagerViewControllerTests.swift; sourceTree = "<group>"; };
+		7A598EF51E02AC8900F74CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A598EFA1E02AC8900F74CB3 /* MRCPagerViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRCPagerViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A598EFE1E02AC8900F74CB3 /* MRCPagerViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MRCPagerViewControllerUITests.swift; sourceTree = "<group>"; };
+		7A598F001E02AC8900F74CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A598ED81E02AC8900F74CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A598EEC1E02AC8900F74CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A598EF71E02AC8900F74CB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A598ED21E02AC8900F74CB3 = {
+			isa = PBXGroup;
+			children = (
+				7A598EDD1E02AC8900F74CB3 /* MRCPagerViewController */,
+				7A598EF21E02AC8900F74CB3 /* MRCPagerViewControllerTests */,
+				7A598EFD1E02AC8900F74CB3 /* MRCPagerViewControllerUITests */,
+				7A598EDC1E02AC8900F74CB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A598EDC1E02AC8900F74CB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A598EDB1E02AC8900F74CB3 /* MRCPagerViewController.app */,
+				7A598EEF1E02AC8900F74CB3 /* MRCPagerViewControllerTests.xctest */,
+				7A598EFA1E02AC8900F74CB3 /* MRCPagerViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A598EDD1E02AC8900F74CB3 /* MRCPagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A598EDE1E02AC8900F74CB3 /* AppDelegate.swift */,
+				7A598EE01E02AC8900F74CB3 /* ViewController.swift */,
+				7A598EE21E02AC8900F74CB3 /* Main.storyboard */,
+				7A598EE51E02AC8900F74CB3 /* Assets.xcassets */,
+				7A598EE71E02AC8900F74CB3 /* LaunchScreen.storyboard */,
+				7A598EEA1E02AC8900F74CB3 /* Info.plist */,
+			);
+			path = MRCPagerViewController;
+			sourceTree = "<group>";
+		};
+		7A598EF21E02AC8900F74CB3 /* MRCPagerViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7A598EF31E02AC8900F74CB3 /* MRCPagerViewControllerTests.swift */,
+				7A598EF51E02AC8900F74CB3 /* Info.plist */,
+			);
+			path = MRCPagerViewControllerTests;
+			sourceTree = "<group>";
+		};
+		7A598EFD1E02AC8900F74CB3 /* MRCPagerViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A598EFE1E02AC8900F74CB3 /* MRCPagerViewControllerUITests.swift */,
+				7A598F001E02AC8900F74CB3 /* Info.plist */,
+			);
+			path = MRCPagerViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A598EDA1E02AC8900F74CB3 /* MRCPagerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A598F031E02AC8900F74CB3 /* Build configuration list for PBXNativeTarget "MRCPagerViewController" */;
+			buildPhases = (
+				7A598ED71E02AC8900F74CB3 /* Sources */,
+				7A598ED81E02AC8900F74CB3 /* Frameworks */,
+				7A598ED91E02AC8900F74CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRCPagerViewController;
+			productName = MRCPagerViewController;
+			productReference = 7A598EDB1E02AC8900F74CB3 /* MRCPagerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A598EEE1E02AC8900F74CB3 /* MRCPagerViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A598F061E02AC8900F74CB3 /* Build configuration list for PBXNativeTarget "MRCPagerViewControllerTests" */;
+			buildPhases = (
+				7A598EEB1E02AC8900F74CB3 /* Sources */,
+				7A598EEC1E02AC8900F74CB3 /* Frameworks */,
+				7A598EED1E02AC8900F74CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A598EF11E02AC8900F74CB3 /* PBXTargetDependency */,
+			);
+			name = MRCPagerViewControllerTests;
+			productName = MRCPagerViewControllerTests;
+			productReference = 7A598EEF1E02AC8900F74CB3 /* MRCPagerViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A598EF91E02AC8900F74CB3 /* MRCPagerViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A598F091E02AC8900F74CB3 /* Build configuration list for PBXNativeTarget "MRCPagerViewControllerUITests" */;
+			buildPhases = (
+				7A598EF61E02AC8900F74CB3 /* Sources */,
+				7A598EF71E02AC8900F74CB3 /* Frameworks */,
+				7A598EF81E02AC8900F74CB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A598EFC1E02AC8900F74CB3 /* PBXTargetDependency */,
+			);
+			name = MRCPagerViewControllerUITests;
+			productName = MRCPagerViewControllerUITests;
+			productReference = 7A598EFA1E02AC8900F74CB3 /* MRCPagerViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A598ED31E02AC8900F74CB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "逢阳曹";
+				TargetAttributes = {
+					7A598EDA1E02AC8900F74CB3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7Q8V8K83D7;
+						ProvisioningStyle = Automatic;
+					};
+					7A598EEE1E02AC8900F74CB3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7Q8V8K83D7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A598EDA1E02AC8900F74CB3;
+					};
+					7A598EF91E02AC8900F74CB3 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7Q8V8K83D7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7A598EDA1E02AC8900F74CB3;
+					};
+				};
+			};
+			buildConfigurationList = 7A598ED61E02AC8900F74CB3 /* Build configuration list for PBXProject "MRCPagerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A598ED21E02AC8900F74CB3;
+			productRefGroup = 7A598EDC1E02AC8900F74CB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A598EDA1E02AC8900F74CB3 /* MRCPagerViewController */,
+				7A598EEE1E02AC8900F74CB3 /* MRCPagerViewControllerTests */,
+				7A598EF91E02AC8900F74CB3 /* MRCPagerViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A598ED91E02AC8900F74CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A598EE91E02AC8900F74CB3 /* LaunchScreen.storyboard in Resources */,
+				7A598EE61E02AC8900F74CB3 /* Assets.xcassets in Resources */,
+				7A598EE41E02AC8900F74CB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A598EED1E02AC8900F74CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A598EF81E02AC8900F74CB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A598ED71E02AC8900F74CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A598EE11E02AC8900F74CB3 /* ViewController.swift in Sources */,
+				7A598EDF1E02AC8900F74CB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A598EEB1E02AC8900F74CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A598EF41E02AC8900F74CB3 /* MRCPagerViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A598EF61E02AC8900F74CB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A598EFF1E02AC8900F74CB3 /* MRCPagerViewControllerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7A598EF11E02AC8900F74CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A598EDA1E02AC8900F74CB3 /* MRCPagerViewController */;
+			targetProxy = 7A598EF01E02AC8900F74CB3 /* PBXContainerItemProxy */;
+		};
+		7A598EFC1E02AC8900F74CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7A598EDA1E02AC8900F74CB3 /* MRCPagerViewController */;
+			targetProxy = 7A598EFB1E02AC8900F74CB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7A598EE21E02AC8900F74CB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A598EE31E02AC8900F74CB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A598EE71E02AC8900F74CB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A598EE81E02AC8900F74CB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A598F011E02AC8900F74CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A598F021E02AC8900F74CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A598F041E02AC8900F74CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Q8V8K83D7;
+				INFOPLIST_FILE = MRCPagerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onlylady.beautyapp.MRCPagerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7A598F051E02AC8900F74CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7Q8V8K83D7;
+				INFOPLIST_FILE = MRCPagerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onlylady.beautyapp.MRCPagerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7A598F071E02AC8900F74CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7Q8V8K83D7;
+				INFOPLIST_FILE = MRCPagerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onlylady.beautyapp.MRCPagerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRCPagerViewController.app/MRCPagerViewController";
+			};
+			name = Debug;
+		};
+		7A598F081E02AC8900F74CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7Q8V8K83D7;
+				INFOPLIST_FILE = MRCPagerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onlylady.beautyapp.MRCPagerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MRCPagerViewController.app/MRCPagerViewController";
+			};
+			name = Release;
+		};
+		7A598F0A1E02AC8900F74CB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7Q8V8K83D7;
+				INFOPLIST_FILE = MRCPagerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onlylady.beautyapp.MRCPagerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MRCPagerViewController;
+			};
+			name = Debug;
+		};
+		7A598F0B1E02AC8900F74CB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7Q8V8K83D7;
+				INFOPLIST_FILE = MRCPagerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onlylady.beautyapp.MRCPagerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MRCPagerViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A598ED61E02AC8900F74CB3 /* Build configuration list for PBXProject "MRCPagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A598F011E02AC8900F74CB3 /* Debug */,
+				7A598F021E02AC8900F74CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A598F031E02AC8900F74CB3 /* Build configuration list for PBXNativeTarget "MRCPagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A598F041E02AC8900F74CB3 /* Debug */,
+				7A598F051E02AC8900F74CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A598F061E02AC8900F74CB3 /* Build configuration list for PBXNativeTarget "MRCPagerViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A598F071E02AC8900F74CB3 /* Debug */,
+				7A598F081E02AC8900F74CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7A598F091E02AC8900F74CB3 /* Build configuration list for PBXNativeTarget "MRCPagerViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A598F0A1E02AC8900F74CB3 /* Debug */,
+				7A598F0B1E02AC8900F74CB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A598ED31E02AC8900F74CB3 /* Project object */;
+}
